@@ -362,15 +362,24 @@ img {
 }
 .footer-social-list {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     width: 206px;
 }
-.footer-social-item {
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-text-color);
+}
+.social-logo {
+    fill: var(--reserve-text-color);
 }
 /* ======== PORTFOLIO ========== */
 .filter {
