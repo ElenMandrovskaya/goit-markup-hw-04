@@ -163,6 +163,7 @@ img {
       ),
       url(../images/hero.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
  } 
 .hero-title {
     max-width: 696px;
@@ -295,7 +296,10 @@ img {
     justify-content: space-between;
 }
 .clients-list-item {
-    min-width: 170px;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 .clients-list-item:not(:last-child) {
     margin-right: 30px;
