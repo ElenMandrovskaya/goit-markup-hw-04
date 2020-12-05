@@ -21,8 +21,16 @@
             </ul>
         </nav>    
         <ul class="contacts">
-            <li class="contact-item"><a class="contact-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-item"><a class="contact-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contact-item">
+                <svg class="email-icon">
+                    <use href="./images/sprite.svg#envelope"></use>
+                </svg>
+                    <a class="contact-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contact-item">
+                <svg class="tel-icon">
+                    <use href="./images/sprite.svg#smartphone"></use>
+                </svg>
+                    <a class="contact-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>
@@ -41,18 +49,38 @@
                 <h2 class="advantage-title visually-hidden">Преимущества</h2>
                 <ul class="advantage-list">
                     <li class="advantage-list-item">
+                        <div class="advantage-icon-wrapper">
+                        <svg class="advantage-icon">
+                            <use href="./images/sprite.svg#antenna"></use>
+                        </svg>
+                        </div>
                         <h3 class="advantage-list-item-title">Внимание к деталям</h3>
                         <p class="advantage-list-item-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li> 
                     <li class="advantage-list-item">
+                        <div class="advantage-icon-wrapper">
+                        <svg class="advantage-icon">
+                            <use href="./images/sprite.svg#clock"></use>
+                        </svg>
+                        </div>
                         <h3 class="advantage-list-item-title">Пунктуальность</h3>
                         <p class="advantage-list-item-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="advantage-list-item">
+                        <div class="advantage-icon-wrapper">
+                        <svg class="advantage-icon">
+                            <use href="./images/sprite.svg#diagram"></use>
+                        </svg>
+                        </div>
                         <h3 class="advantage-list-item-title">Планирование</h3>
                         <p class="advantage-list-item-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li class="advantage-list-item">
+                        <div class="advantage-icon-wrapper">
+                        <svg class="advantage-icon">
+                            <use href="./images/sprite.svg#astronaut"></use>
+                        </svg>
+                        </div>
                         <h3 class="advantage-list-item-title">Современные технологии</h3>
                         <p class="advantage-list-item-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -104,10 +132,36 @@
                 </ul>
             </div>
         </section>
+        <section class="clients section">
+            <div class="container">
+                <h2 class="clients-title">Постоянные клиенты</h2>
+                <ul class="clents-list">
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                    <li class="clients-list-item">
+                        <a class="clients-link" href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <!-- contacts -->
         <div class="container">
+            <div class="wrap">
             <a class="logo" href="./index.html" ><span class="accent-logo-color">Web</span><span class="logo-white">Studio</span></a>
             <address>
                 <ul class="main-contacts-list">
@@ -122,6 +176,24 @@
                     </li>
                 </ul>
             </address>
+            </div>
+            <div class="footer-social-links">
+                <h2 class="join">присоединяйтесь</h2>
+                <ul class="social-links-list">
+                    <li class="social-links-item">
+                        <a class="social-links-link" href="#">Instagram</a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-links-link" href="#">Twitter</a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-links-link" href="#">Facebook</a>
+                    </li>
+                    <li class="social-links-item">
+                        <a class="social-links-link" href="#">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
