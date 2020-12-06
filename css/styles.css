@@ -133,21 +133,8 @@ img {
     display: flex;
     align-items: center;
 }
-.email-icon {
+.contact-icon {
     margin-right: 10px;
-    width: 16px;
-    height: 12px;
-}
-.tel-icon {
-    margin-right: 10px;
-    width: 10px;
-    height: 16px;
-}
-
-.email-icon:hover,
-.email-icon:focus,
-.tel-icon:hover,
-.tel-icon:focus {
     fill: currentColor;
 }
 
@@ -273,8 +260,12 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-.worker-name {
+.worker-info {
     margin-top: 30px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.worker-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -289,20 +280,33 @@ img {
     text-align: center;
     color: var(--secondary-text-color);
 }
+.worker-social-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.worker-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+}
+.worker-social-link:hover,
+.worker-social-link:focus {
+    background-color: var(--accent-text-color);
+    color: var(--reserve-text-color);
+}
+.social-network {
+    fill:currentColor;
+}
 /* ========= CLIENTS ======== */
 .clients-list {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-}
-.clients-list-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 90px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
 }
 .clients-list-item:not(:last-child) {
     margin-right: 30px;
@@ -316,6 +320,25 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    width: 170px;
+    height: 90px;
+    border: 1px solid;
+    border-radius: 4px
+}
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+}
+.clients-logo {
+    fill: currentColor;
+}
+
 
 
 /* ====== FOOTER ======== */
@@ -373,13 +396,14 @@ img {
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    color: var(--reserve-text-color);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: var(--accent-text-color);
 }
 .social-logo {
-    fill: var(--reserve-text-color);
+    fill:currentColor;
 }
 /* ======== PORTFOLIO ========== */
 .filter {
