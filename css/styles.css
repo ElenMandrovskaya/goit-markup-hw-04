@@ -141,7 +141,9 @@ img {
 
 /* =========== HERO ==========*/
 .hero {
-    text-align: center;
+    max-width: 1600px;
+    /* min-height: 600px; */
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #2F303A;
@@ -153,6 +155,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
  } 
 .hero-title {
     max-width: 696px;
